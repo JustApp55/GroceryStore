@@ -17,8 +17,21 @@ function App() {
     }]))
   }
 
+  const removeGroce = () => {
+    setList(list.concat([{
+      item: document.querySelector("item").value,
+      brand: document.querySelector("brand").value,
+      unit: document.querySelector("unit").value,
+      quantity: document.querySelector("quantity").value,
+      isPurchased: false
+    }]))
+  }
+
+
+
  useEffect(() => {
    document.querySelector("#button").addEventListener('click', addGroce)
+   document.querySelector("#remv").addEventListener('click', removeGroce)
 
   })
 
@@ -33,6 +46,7 @@ function App() {
         <input type="text" name="unit" placeholder="Units"></input>
         <input type="text" name="quantity" placeholder="Quantity"></input>
         <input type="submit" value="ADD" id="button"></input>
+        <input type="submit" value="REMOVE" id="remv"></input>
      </form>
    
 
