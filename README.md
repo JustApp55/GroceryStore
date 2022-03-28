@@ -2,11 +2,11 @@
  Grocery app that allows users to make a grocery list
 
 ### Learning Objectives
-    Practice setting up a React app
-    Practice Mocking a React app
-    Practice using and lifting state
-    Practice rendering a list
-    Practice conditional rendering
+  - Practice setting up a React app
+  - Practice Mocking a React app
+  - Practice using and lifting state
+  - Practice rendering a list
+  - Practice conditional rendering
 
 ## Prerequisites
 Introduction to React static components, mocking, state, rendering
