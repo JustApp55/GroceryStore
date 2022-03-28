@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+ justify-content: center; 
+
+ padding: 50px;
+ font-family: sans-serif;
+ background-color: #2bc06c;
+} 
+
+
